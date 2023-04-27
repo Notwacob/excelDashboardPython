@@ -109,6 +109,8 @@ left_column, right_column = st.columns(2)
 left_column.plotly_chart(fig_hourly_sales, use_container_width=True)
 right_column.plotly_chart(fig_product_sales, use_container_width=True)
 
+url = "https://www.youtube.com/watch?v=Sb0A9i6d320"
+st.write("coded via this tutorial [here](%s)" % url)
 
 # ---- HIDE STREAMLIT STYLE ----
 hide_st_style = """
